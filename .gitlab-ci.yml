@@ -1,4 +1,4 @@
-image: www:latest
+image: www
 
 variables:
  DOCKER_DRIVER: overlay2
