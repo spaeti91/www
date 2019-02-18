@@ -18,5 +18,5 @@ before_script:
 build_dev:
  stage: build
  script:
-  - docker build -t registry.gitlab.com/Wannabee/www .
-  - docker push registry.gitlab.com/Wannabee/www
+   - docker build -t registry.gitlab.com/Wannabee/www .
+   - docker push registry.gitlab.com/Wannabee/www
