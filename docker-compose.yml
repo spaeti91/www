@@ -1,8 +1,8 @@
 version: '3'
 services:
- web:
-  build:
+ webserver:
+  image: registry.gitlab.com/wannabee/www:latest
   ports:
-  - "8080:80"
-  volumes:
-  - ./www:/usr/share/nginx/html
+  - "9999:80"
+ volume:
+  - ./app:/app
